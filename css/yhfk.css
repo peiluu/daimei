@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+  .main{
+		 width:1180px;
+		 margin:0 auto;
+		 border:1px  solid  black;
+		 background:#FFFFF0;
+		 }
+	.center{
+		width:1178px;
+		margin:0 auto;
+		border:1px solid black;
+		padding-bottom:20px;
+		}
+     textarea{
+		width: 500px;
+		height:140px;
+		overflow:hidden;
+		}
+    
+     textarea:hover{
+		border:1px solid black;
+		border-radius:8px;
+	    background:#FAFAD2;
+	 }
+	 input:hover{
+		 background:#FAFAD2;
+			 }
+	.message{
+		width:800px;
+		margin:0 auto;
+		border:2px solid red;
+		border-radius:10px;
+		margin-top:60px;
+		padding-left:80px;
+		box-shadow:3px 4px 5px #EE2C2C;
+		
+		}
+	 .message .tip{  
+		width:30px;	 
+		border:none;
+		height:20px;		
+		}
+	.message_head{
+		font-size:30px;
+		line-height:30px;
+		font-family:"新宋体";
+		font-weight:bold;
+		position:relative;
+		top:-15px;
+		display:inline-block;
+		background:#FFF;
+		}
+	.mess_right{
+		padding-left:120px;
+		font-size:16px;
+		font-weight:bold;
+		font-family:"宋体";
+		}
+	.submit{
+		margin-top:20px;
+		text-align:left;
+		padding-left:250px;
+		
+		}
+    .name{
+		width:100px;
+		}
+	input{
+		width:auto;
+		height:30px;
+		border-radius:5px;
+		}
+
+	.star{
+		color:red;
+		font-size:20px;
+		line-height:20px;
+		}
+		
+	.smalltext{
+		font-size:12px;
+		color:#C00;
+		}
+		
+	.message_show{
+		width:1180px;
+		margin-top:20px;
+		padding-top:20px;
+		}
+		
+	.message_show_box{
+		width:1000px;
+		font-size:22px;
+		font-weight:bold;
+		margin:0 auto;
+		}
+	.message_show_box .more{
+		font-size:15px;
+		text-align:right;
+		}	
+	.user_message{
+		border:1px solid #999;
+		padding:4px;
+		border-top:none;
+		
+		}
+	.user_message:hover{
+		background:#FFFFE0;
+		}
+		
+	.txt_1{
+		font-size:18px;
+		float:left;
+		font-family:"Adobe 楷体 Std R";
+		}
+	.txt_3{
+		font-size:16px;
+		float:left;
+		color:#545454;
+		}
+		
+	.time{
+	    float:right;
+		font-family:"Comic Sans MS", cursive;
+		font-size:14px;
+		color:#063;
+		}	
+	.txt_4{
+		height:150px;
+		font-size:14px;
+		border-top:1px dotted #666;
+		
+		}
+    a{
+		color:red;
+		text-decoration:none; 
+	}

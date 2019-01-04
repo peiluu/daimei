@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.main{
+		width:1180px;
+		border:1px solid black;
+		}
+	.center{
+		width:1179px;
+		height:680px;
+		border:1px solid #333;
+		border-left:#666;
+		margin:0 auto;
+		}
+	.center .more{
+		position:absolute;
+		top:25px;
+		right:10px;
+		font-family:"Charlemagne Std";
+		font-size:14px;
+		color:red;		
+		}
+	.center h2{
+		font-size:40px;
+		text-align:center;
+				}
+	.center_1{
+		width:587px;
+		float:left;
+		height:320px;
+		border:1px solid #CCC;
+		border-bottom:none;
+		border-right:none;
+		text-align:center;
+		position:relative;
+		}
+	.center_1 .img{
+		width:170px;
+		height:200px;
+		float:left;
+		margin-left:11px;
+		margin-top:1px;
+		}
+	.center_1 .img img{
+		width:160px;
+		height:190px;		
+		}
+	.center_1 .img img:hover{
+		width:170px;
+		height:200px;
+		
+		}
+	.center_1 .name{
+		width:170px;
+		height:50px;
+		float:left;
+		padding-top:8px;
+		margin-left:11px;
+		font-size:26px;
+		}
+	
+		
+	.center_1 h5{
+		padding-top:4px;
+		font-size:22px;
+		font-family:"Adobe 楷体 Std R";
+		}

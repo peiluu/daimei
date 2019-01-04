@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+	body{
+		width:1180px;
+		margin:0 auto;
+		}
+	.main{
+		width:1180px;
+		border:1px solid black;
+		}
+
+	.textbgcolor{
+	  background:#FFC;	
+	  
+  }
+	.h5bgcolor{
+	background:#FF9;
+	font-size:30px;
+	font-weight:100;
+ 	}
+ 	a {
+	 text-decoration:none;
+	 color:#000;
+     }
+	
+	 .header_right{
+		 width:100px;
+		 color:#CCC;
+		 float:left;
+     	 margin-left:800px; 
+		 margin-top:2px;
+		 float:left;
+		
+	 }
+     .music{
+		 float:left;
+		 }
+	.container{
+		width:1180px;
+	    height: 800px; 
+		border: 1px solid #333; 
+		overflow: hidden; 
+		border-bottom:none;    
+		position: relative;
+	
+		}
+
+	.container img{ 
+		 width:1180px;
+		 height: 800px;
+		 }
+    .list {
+		 width:8000px;
+		 height: 800px;
+		 position: absolute; 
+		 z-index: 1;
+		 }
+   .list img { float: left;
+		}
+   .buttons{
+		 position: absolute; 
+		 height: 10px; 
+		 width: 100px;
+		 z-index: 2;
+		 bottom: 20px;
+		 left:540px;
+		 }
+   .buttons span{
+		   cursor: pointer;
+		   float: left ; 
+		   border: 1px solid #fff; 
+		   width: 10px; 
+		   height: 10px; 
+		   border-radius: 50%;
+		   background: #333;
+		   margin-right: 5px;}
+   .buttons .on { 
+           background: orangered;
+		  }
+   .arrow { 
+		cursor: pointer; 
+		display: none;
+		line-height: 39px;
+		text-align: center; 
+		font-size: 36px;
+	    font-weight: bold; width: 40px; 
+		height: 40px; 
+		position: absolute;
+		z-index: 2;
+		top: 400px;
+	    background-color: RGBA(0,0,0,.3);
+	    color: #fff;}
+    .arrow:hover { 
+   		background-color: RGBA(0,0,0,.7);
+   }
+   .container:hover .arrow {
+	    display: block;
+		}
+   #prev { left: 20px;}
+   #next { right: 20px;}
+   
+    hr{
+	   width:90%;
+	   margin-top:20px;
+	   margin-left:40px;
+	    }
+	.center{
+		   width:1180px;
+		   background:#FFFAF0;
+		   clear:both;
+			height:510px;
+		   font-size:12px;
+		   line-height:18px;
+		   text-align:center;
+		   
+		}
+	.center h5{
+		 font-size:18px;
+		 width:120px;
+		 font-family:cursive;
+		 font-weight:bold;
+		 font-family:"Comic Sans MS", cursive;
+		 color:	DarkOliveGreen;
+		 }
+	 
+	.center .spec_food{
+		width:300px;
+		float:left;
+		height:480px;
+		border-right:2px solid #CCC;
+		padding-top:10px;
+	
+		}
+	.center .spec_food_1{
+		width:140px;
+		height:115px;
+		float:left;
+		
+		}
+	.center .spec_food_1 img{
+		width:135px;
+		height:115px;
+		}
+	
+	.center .spec_food_2{
+		width:150px;
+		height:115px;
+		float:left;
+		font-size:13px;
+		line-height:20px;
+		}	
+	.center .hgqy{
+		width:350px;
+		float:left;
+		height:200px;
+		margin:0 auto;
+		padding-top:10px;
+	    border-right:2px  solid #CCC;
+	}
+	.center .hgqy hr{
+		width:90%;
+		font-weight:normal;
+		color:red;
+		margin-top:2px;
+		}
+	.center .hgqy img{
+		width:155px;
+		height:160px;
+		float:left;
+	
+	
+	
+	}
+	.center .hgqy img1{
+		width:175px;
+		height:160px;
+		padding-left:6px;
+			}
+	.center .hgqy img:hover{
+		width:170px;
+		height:170px;
+		float:left;
+		}
+   .hgqy .hgqy_text{
+	   font-size:16px;
+	   font-family:"楷书";
+	   line-height:20px;
+	   }
+	.hgqy .img1{
+		height:160px;
+		width:130px;
+		float:left;
+	    margin-left:22px;
+		font-size:12px;
+		font-family:"宋体";
+		} 
+	  .hgqy span{
+		  font-size:16px;
+		 margin-top:4px;
+		  
+		  }
+	  
+	.center .store_show{
+		width:510px;
+		float:left;
+	    padding-top:10px;
+		padding-left:10px;
+		}
+	.center .store_show img{
+		width:163px;
+		height:160px;
+		float:left;
+		margin-left:3px;
+		}
+	.center .store_show img:hover{
+		width:170px;
+		height:160px;
+		}
+	.center .sauce{
+	    width:640px;
+		height:260px;
+		border-rigth:1px solid #999;
+		float:left;
+		border-left:none;
+		padding-top:20px;
+		}
+
+     .sauce_img{
+		 width:280px;
+		 float:left;
+		 padding-left:40px;
+		 text-align:left;
+		 margin-left:30px;
+		 padding-top:4px;
+		 }
+		 .sauce_img img{
+			 height:120px;
+			 }
+    .sauce_text{
+		width:220px;
+		float:left;
+		font-size:16px;
+		line-height:40px;
+	 
+		}
+	.center .link{
+		width:234px;
+		height:280px;
+		float:left;
+		border-left:1px solid #999;
+		text-align:left;
+		font-size:16px;
+		font-family:"楷书";
+		padding-left:3px;
+		line-height:24px;
+	
+		}
+	.center .link a{
+		color:#000;
+		}
+	.center .link a:hover {
+		background:#FFEFD5;	
+		
+	}
+	.center .sauce .saucetip{
+		text-align:left;
+		padding-left:50px;
+		font-family:"楷书";
+		font-size:14px;
+		line-height:23px;
+		}
+	 h5 a{
+		  color:	DarkOliveGreen;;
+		  }

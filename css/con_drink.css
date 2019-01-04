@@ -1,0 +1,119 @@
+	 .main{
+		width:1180px;
+		border:1px solid black;
+		margin:0 auto;
+		font-size:16px;
+		font-family:"楷书";
+		background:	LightYellow;
+		}
+	
+	 .spec_text_1{
+		 padding-left:430px;
+		 font-size:30px;
+		 font-family:"楷书";
+		 font-weight:bold;
+		 }
+	.spec_text_2{
+		 padding-left:560px;
+		 font-size:25px;
+		 font-family:"宋体";
+	}
+	 .tab { 
+		 width:1000px;
+		 margin:0 auto;
+		 padding-top:20px;
+		 left:200px;
+	 }
+	 
+	 .tab_menu li { 
+	    float:left; 
+		text-align:center;
+	    cursor:pointer;
+		font-size:20px;
+		list-style:none;
+		padding:6px 6px;
+		margin-right:18px;
+		border-radius:10px;
+		background:	Moccasin;
+		border:1px solid #898989;
+		border-bottom:none;
+		}
+     .tab_menu li.hover {
+			  background:#DFDFDF;
+			  }
+	 .tab_menu li.selected {
+		  color:#FFF;
+		  background:#6D84B4;
+	 }
+	 .tab_menu .buy{
+		 width:1180px;
+		 }
+	.tab_menu .buy input{
+		width:70px;
+		height:30px;
+   	    font-size:20px;
+		border-radius:5px;
+		position:absolute;
+		right:20%;
+	    top:170px;
+		
+		}
+		 
+	 .tab_box { 
+	  	border:1px solid #898989;
+	  	width:500px;
+		height:300px;
+		font-size:20px;
+		line-height:26px;
+		padding:10px 20px 0px 20px;
+		margin:10px 0px 10px 400px;;
+		
+		  }
+
+	.tab_box input{
+		width:60px;
+		height:30px;
+		border-radius:4px;
+		margin:20px 0px 0px 220px;
+		
+		} 
+	 .hide{
+		 display:none;
+		 }
+	 .img{
+		 width:150px;
+		 height:100px;
+	 }
+ 
+	
+.box{
+	height:100px;
+	width:150px;
+}	
+.img{
+	width:150px;
+	height:100px;
+}
+#prev,#next{
+	cursor:pointer;
+	color:#FFFAFA;
+	font-weight:bold;
+	}
+
+#show{
+	position:absolute;
+	top:37%;
+	left:18%;
+
+	
+	}
+	#showpic{
+		width:350px;
+		height:300px;
+		cursor:pointer;
+		margin-bottom:5px;
+		}
+#showpic img{
+	   width:350px;
+		height:300px;
+	}

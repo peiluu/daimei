@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main{
+	width:600px;
+	height:300px;
+	border:1px solid black;
+	margin:0 auto;
+	text-align:center;
+	background:
+
+	}
+input{
+	width:50px;
+	height:30px;
+	border-radius:7px;
+	}
+h3{
+	font-size:25px;
+	font-weight:bold;
+	}
+
+.goods{
+	width:200px;
+	padding-left:20px;
+	float:left;
+	font-size:20px;
+	}	
+.number{
+	width:300px;
+	float:left;
+	font-size:20px;
+
+	}
+.submit{
+	padding-top:80px;
+	text-align:center;
+}
+input:hover{
+	background:#CFC;
+	}
+
+</style>
